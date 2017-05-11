@@ -100,7 +100,6 @@ public class ReportMeauresSteps {
     @Then("^the payload is a non-empty list$")
     public void the_payload_is_a_non_empty_list() throws Throwable {
         List list = (List) lastApiResponse.getData();
-        //assertNotEquals(0, list.size());
-        assertEquals(0, 10);
+        assertNotEquals(0, list.size());
     }
 }
