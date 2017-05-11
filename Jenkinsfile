@@ -23,13 +23,13 @@ pipeline {
                    sh './build-docker-image.sh'
                    sh './run-docker-image.sh'
                }
-               echo 'Test results are available on Probe Dock: https://???????????'
+               echo 'Test results are available on Probe Dock: https://trial.probedock.io/avaliasystems/openaffectserver'
            }
-       }
+       }   
        stage('Validation') {
            steps {
-               echo 'Test results are available on Probe Dock: https://&&&&&&&&&&&&&&&&&'
+               echo 'Test results are available on Probe Dock: https://trial.probedock.io/avaliasystems/openaffectserver'
            }
-       }
+       }   
     }
 }
