@@ -2,7 +2,7 @@
 
 This repository contains a server-side implementation of the Open Affect API, built on top of the Spring Boot framework.
 
-[![Build Status](https://travis-ci.org/openaffect/openaffect-server.svg?branch=master)](https://travis-ci.org/openaffect/openaffect-server)
+[![Build Status](https://travis-ci.org/jonathandreyer/openaffect-server.svg?branch=master)](https://travis-ci.org/jonathandreyer/openaffect-server)
 
 ## What is Open Affect API?
 
@@ -40,7 +40,7 @@ Since version 0.1.3, we provide a CI/CD pipeline for the server, directly in thi
 
 1. Build the docker image
   * `cd docker-images/oa-java-server/`
-  * `./build-docker-image.sh` 
+  * `./build-docker-image.sh`
 2. Start the docker topology
   * `cd ../../docker-topologies/runtime/`
   * `docker-compose up`
